@@ -9,6 +9,6 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio" % "2.0.2",
       "com.softwaremill.sttp.tapir" %% "tapir-http4s-server-zio" % "1.1.0",
-      "org.http4s" %% "http4s-blaze-server" % "0.23.9"
+      "org.http4s" %% "http4s-blaze-server" % "0.23.12"
     )
   )
